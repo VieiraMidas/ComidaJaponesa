@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="205dp"
+    android:layout_height="205dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPreta">
+
+        <ImageView
+            android:id="@+id/imgImagem"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:src="@drawable/ramburguer" />
+
+        <TextView
+            android:id="@+id/txtTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hamburguer Special"
+            android:textStyle="bold"
+            android:textColor="@color/colorBranca"
+            android:textSize="15sp"
+            android:layout_alignBottom="@id/imgImagem"
+            android:layout_marginBottom="25dp"/>
+
+        <TextView
+            android:id="@+id/txtTempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15 min"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/ic_time_dp"
+            android:textColor="@color/colorCinza"
+            android:layout_alignBottom="@id/imgImagem"/>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
