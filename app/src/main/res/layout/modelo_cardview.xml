@@ -10,8 +10,9 @@
 
         <ImageView
             android:id="@+id/imgImagem"
-            android:layout_width="220dp"
-            android:layout_height="220dp"
+            android:layout_width="205dp"
+            android:layout_height="205dp"
+            android:padding="15dp"
             android:src="@drawable/ramburguer" />
 
         <TextView

@@ -39,6 +39,7 @@
             android:layout_marginLeft="20dp"/>
 
         <ImageView
+            android:id="@+id/btnMenu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_trespontos_dp"
@@ -48,7 +49,8 @@
     <GridView
         android:id="@+id/gvExplore"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:numColumns="2">
 
     </GridView>
 
